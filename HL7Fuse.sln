@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7Fuse", "HL7Fuse\HL7Fuse.csproj", "{EF3429EC-C72E-410D-AE22-E534851F3FFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7Fuse.Hub", "HL7Fuse.Hub\HL7Fuse.Hub.csproj", "{95D85467-0003-40FF-A10C-D731F54059B8}"
@@ -11,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Solution Items\Release notes.txt = Solution Items\Release notes.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7Fuse.TestSender", "HL7Fuse.TestSender\HL7Fuse.TestSender.csproj", "{B3347AA8-234C-40B6-B2B5-79D48F1F3BBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,10 @@ Global
 		{BF54E1C3-862C-495A-B243-38E629D408AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF54E1C3-862C-495A-B243-38E629D408AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF54E1C3-862C-495A-B243-38E629D408AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3347AA8-234C-40B6-B2B5-79D48F1F3BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3347AA8-234C-40B6-B2B5-79D48F1F3BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3347AA8-234C-40B6-B2B5-79D48F1F3BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3347AA8-234C-40B6-B2B5-79D48F1F3BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
