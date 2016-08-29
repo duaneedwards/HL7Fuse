@@ -1,5 +1,4 @@
 #tool "nuget:?package=NUnit.Runners&version=2.6.4"
-#tool "nuget:?package=GitVersion.CommandLine"
 
 // stops the Visual Studio Debugger here if it is attached by invoking ./build.ps1 --Debug
 #break 
@@ -16,7 +15,7 @@ string releaseNotes = "TODO implement releasenotes";
 string branch = "unknown-branch";
 string revision = "unknown-revision";
 
-string versionNumber = "1.0.0";
+string versionNumber = "1.0.1";
 Information("Version Number: " + versionNumber);
 
 Task("NuGet-Package-Restore")
@@ -46,9 +45,6 @@ Task("Update-Assembly-Info")
         //FileVersion = versionNumber, 
         InformationalVersion = string.Format("{0}-{1}.{2}+{3}_{4}", versionNumber, branch, revision, Environment.MachineName, DateTime.Now.ToString("yyyyMMddHHmmss")),
     });
-    // GitVersion(new GitVersionSettings {
-    //     UpdateAssemblyInfo = true
-    // });
 });
 	
 Task("Build")
