@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>HL7Fuse</id>
+    <version>1.0.0.0</version>
+    <authors>dib0, Duane Edwards</authors>
+    <owners>dib0, Duane Edwards</owners>
+    <licenseUrl>https://github.com/duaneedwards/HL7Fuse/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/duaneedwards/HL7Fuse/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HL7Fuse is a "Swiss pocketknife" for your HL7 development needs in the .Net framework. HL7Fuse is based on SuperSocket in combination with NHapi and NHapiTools. This combination provides a powerful and solid base to build you HL7 application or HL7 test framework. In fact, if you use HL7Fuse as is, it can function as a mesasge hub, so you can receive one message and send this (using filters) to many client systems.</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+	<files>
+		<file src="bin\release\*.exe"/>
+		<file src="bin\release\*.dll"/>
+		<file src="bin\release\*.pdb"/>
+		<file src="bin\release\*.xml"/>
+		<file src="bin\release\*.config"/>
+	</files>
+</package>
