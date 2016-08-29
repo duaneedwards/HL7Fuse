@@ -17,5 +17,6 @@
 		<file src="bin\release\*.pdb"/>
 		<file src="bin\release\*.xml"/>
 		<file src="bin\release\*.config"/>
+		<file src="bin\release\Config\" target="Config\"/>
 	</files>
 </package>
