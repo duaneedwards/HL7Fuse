@@ -15,7 +15,7 @@ string releaseNotes = "TODO implement releasenotes";
 string branch = "unknown-branch";
 string revision = "unknown-revision";
 
-string versionNumber = "1.0.1";
+string versionNumber = "1.3.0";
 Information("Version Number: " + versionNumber);
 
 Task("NuGet-Package-Restore")
